@@ -1,3 +1,5 @@
+import { ReactNode } from "react";
+
 const AuthLayout = ({ children }: { children: ReactNode }) => {
     return (
       <div className="container relative hidden h-screen flex-col items-center justify-center md:grid lg:max-w-none lg:grid-cols-2 lg:px-0">
