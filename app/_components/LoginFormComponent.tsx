@@ -113,7 +113,7 @@ const LoginFormComponent = (riveProps: UseRiveParameters = {}) => {
               : trigFailInput!.fire();
 
               setLoginButtonText(LOGIN_TEXT);
-          }, 3000);
+          }, 1500);
         e.preventDefault()
         return false;
 
