@@ -1,7 +1,10 @@
+'use client'
+import LoginFormComponent from "@/app/_components/LoginFormComponent";
+
 const LoginPage = () => {
     return (
         <div>
-            Login Page
+            <LoginFormComponent />
         </div>
     )
 }
